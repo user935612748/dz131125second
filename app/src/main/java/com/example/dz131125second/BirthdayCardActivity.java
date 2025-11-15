@@ -36,7 +36,7 @@ public class BirthdayCardActivity extends AppCompatActivity implements Constants
         birthdayText.setText(birthdayMessage);
 
         if (age != null && !age.isEmpty()) {
-            String ageMessage = "Тебе уже" + age + " лет!";
+            String ageMessage = "Тебе " + age + " лет!";
             ageText.setText(ageMessage);
         } else {
             ageText.setText("С днем рождения!");
